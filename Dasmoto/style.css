@@ -1,0 +1,57 @@
+.head {
+  font-family: Helvetica;
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+}
+
+.brushes h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: mediumspringgreen;
+}
+
+.brushes h3 {
+  font-family: Helvetica;
+  font-weight: bold;
+  text-align: left;
+}
+
+.brushes span {
+  color: blue;
+  font-weight: bold;
+  text-align: left;
+}
+
+.frames h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: lightcoral;
+}
+
+.frames span {
+  color: blue;
+  font-weight: bold;
+  text-align: left;
+}
+.frames h3 {
+  font-family: Helvetica;
+}
+
+.paint span {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: blue;
+}
+
+.paint h2 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: skyblue;
+}
