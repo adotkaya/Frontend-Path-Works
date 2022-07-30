@@ -1,0 +1,117 @@
+body {
+  min-height: 100vh;
+  background-image: url("/assets/images/bg.jpg");
+  background-size:cover;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  flex-grow: 1;
+  /*background:url("assets/images/overlay.png");*/
+  /*background:white;*/
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*font-family:"Source Sans Pro", Helvetica, sans-serif;
+    font-size:80px;
+    font-style:normal;
+    font-height:80px;
+    color:#ffffff;
+    */
+}
+#layout {
+  /*background:yellow;*/
+  width: 70%;
+  /*margin-left:15%;
+    margin-right:15%;*/
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  /*
+    font-family:"Source Sans Pro", Helvetica, sans-serif;
+    font-size:40px;
+    font-style:normal;
+    font-height:40px;
+    color:#ffffff;*/
+}
+
+#header {
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#text1 {
+  text-align: center;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 80px;
+  font-style: normal;
+  color: #ffffff;
+}
+#intro {
+  /* background:pink;*/
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#text2 {
+  text-align: center;
+  font-family: Merriweather, Georgia, serif;
+
+  font-size: 16px;
+  font-style: normal;
+
+  color: #ffffff;
+}
+
+footer {
+  flex-shrink: 0;
+  background: #212931;
+  color: white;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#left1 {
+  /*color:white;
+    background: red;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.lbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Merriweather, Georgia, serif;
+
+  font-size: 16px;
+  font-style: normal;
+}
+
+#right1 {
+  /*color:white;
+    background:aqua;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.rbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2%;
+  font-family: Merriweather, Georgia, serif;
+
+  font-size: 16px;
+  font-style: normal;
+}
